@@ -159,12 +159,28 @@ background:rgba(255,255,255,0.05);
            <td width=10></td>
           <td align=left>Markus</td>
           <td>M50</td>
+           <td></td>
+          <td align=right></td>
+          <td></td>
+          <td align=left></td>
+          <td></td>
+          <td align=right>k6</td>
+          <td></td>
+          <td align=left>Edda</td>
         </tr>
          <tr>
           <td align=right>7</td>
            <td width=10></td>
           <td align=left>Kai</td>
           <td>MHK</td>
+           <td></td>
+          <td align=right></td>
+          <td></td>
+          <td align=left></td>
+          <td></td>
+          <td align=right>k7</td>
+          <td></td>
+          <td align=left>Peer</td>
         </tr>
         <tr>
           <td align=right>8</td>
@@ -230,7 +246,7 @@ function updateCountdown() {
   const diff = targetDate - now;
 
   if (diff <= 0) {
-    document.getElementById("countdown").textContent = "Das Event hat begonnen!";
+    document.getElementById("countdown").textContent = "Ergebnisse in Kürze!";
     clearInterval(timer);
     return;
   }
